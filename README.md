@@ -93,7 +93,7 @@ MinMaxScaler, RandomForestRegressor, XGBRegressor
 ### (1) 대출 상품 추천 AI
 - 은행선택, 직장 유무, 신용정보 입력받게되면, 입력 받은 정보를 토대로 대출 상품을 추천
 
-<img width="500" alt="대출 상품 추천 AI" src="/Project/images/streamlit_view1.png" />
+<img width="600" alt="대출 상품 추천 AI" src="Project/images/streamlit_view1.png" />
 
 <br>
 <br>
@@ -102,5 +102,5 @@ MinMaxScaler, RandomForestRegressor, XGBRegressor
 ### (2) 대출 상환 확률 예측 및 대화형 AI
 - 추가적인 사용자 정보를 입력받게 되면 대출 상품별 상환 확률을 확인하고 대화형 AI 서비스를 이용 가능
 
-<img width="500" alt="대출 상환 확률 예측 및 대화형 AI" src="/Project/images/streamlit_view2.png" />
+<img width="600" alt="대출 상환 확률 예측 및 대화형 AI" src="Project/images/streamlit_view2.png" />
 <br>
