@@ -8,9 +8,9 @@ os.environ['KMP_DUPLICATE_LIB_OK'] = 'True'
 
 # ✅ 모델 및 인코더 로드
 try:
-    with open('plk/xgb_model_grid.pkl', 'rb') as f:
+    with open('pkl/xgb_model_grid.pkl', 'rb') as f:
         model = pickle.load(f)
-    with open('plk/label_encoders.pkl', 'rb') as f:
+    with open('pkl/label_encoders.pkl', 'rb') as f:
         label_encoders = pickle.load(f)
 except Exception as e:
     st.error(f"모델 또는 인코더 로드 실패: {e}")
@@ -88,7 +88,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 with st.sidebar:
-    st.image("data/loni.png", width=100)
+    st.image("images/loni.png", width=100)
     st.markdown("## 📘 사용 안내")
     st.info("1. 은행과 신용점수를 입력하세요.\n2. 대출 상품을 추천받으세요.\n3. 자세한 정보를 입력해 예측해보세요.\n4. 챗봇과 추가 상담하세요!")
 
