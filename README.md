@@ -92,9 +92,7 @@ MinMaxScaler, RandomForestRegressor, XGBRegressor
 
 ### (1) 대출 상품 추천 AI
 - 은행선택, 직장 유무, 신용정보 입력받게되면, 입력 받은 정보를 토대로 대출 상품을 추천
-
-<img width="600" alt="대출 상품 추천 AI" src="https://raw.githubusercontent.com/Nnnnuri/Loan_AI/main/Project/images/streamlit_view1.png" />
-
+![fusion_example](./Project/images/streamlit_view1.png)
 
 <br>
 <br>
